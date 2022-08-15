@@ -1,0 +1,107 @@
+
+@media(min-width:768px){
+    .header .nav{
+        display: block!important;
+    }
+}
+@media(max-width:991px){
+    .hotels-section .hotels-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media(max-width:767px){
+    .header .logo{
+        padding: 8px 15px;
+    }
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+    .home-section .home-content h1{
+        font-size: 60px;
+    }
+    .information-section .information{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .information-section .information:nth-child(2){
+        margin-top: 50px;
+    }
+    .information-section .information:nth-child(2):before{
+        content: none;
+    }
+    .information-section .information i.fa-heart{
+        display: none;
+    }
+    .preparation-section .preparation-img{
+        margin-top: 20px;
+    }
+    .preparation-section .preparation-content:before{
+        left: 20px;
+    }
+    .preparation-section .preparation-item i{
+        margin-left: 0px;
+        left: 5px;
+    }
+    .preparation-section .preparation-text, .preparation-section .preparation-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .preparation-section .preparation-item:nth-child(odd) .preparation-text {
+        padding: 0 15px 0 50px;
+        text-align: left;
+    }
+    .preparation-section .preparation-item:nth-child(even) .preparation-img {
+        padding: 0 15px 0 50px;
+    }
+    .preparation-section .preparation-item:nth-child(even) .preparation-text,
+    .preparation-section .preparation-item:nth-child(odd) .preparation-img {
+        padding: 0 15px 0 50px;
+    }
+    .event-section .event{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .event-section .event:nth-child(2){
+        margin-top: 50px;
+    }
+    .event-section .event:nth-child(2):before{
+        content: none;
+    }
+    .event-section .event i.fa-heart{
+        display: none;
+    }
+
+}
+
+@media(max-width: 574px){
+    .home-section .home-content h1{
+        font-size: 40px;
+    }
+    .hotels-section .hotels-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer .footer-content .couple-name{
+        width: 290px;
+        height: 290px;
+    }
+}
