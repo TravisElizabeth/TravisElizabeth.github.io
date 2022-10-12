@@ -98,7 +98,7 @@ $(function(){
         //Preparación 2
         $("#time-frame-2").text("8-6 Meses Por Delante...");
         //$("#date").text("Septiembre-Noviembre");
-        $("#2nd-quarter").text("El lugar original para la boda fue en la Ciudad de México. Pero nos hemos encontrado con una pequeña situación durante el proceso de preparación y con eso la posibilidad de tenerlo en otro ubicación. Hasta la primera semana de noviembre no podemos decir qué ciudad será, sin embargo todavía estará en México.  Mientas tanto continúe  ahorrando y buscando los documentos de viaje necesarios. No reserve nada durante este tiempo.");
+        $("#2nd-quarter").text("El lugar original para la boda fue en la Ciudad de México. Pero nos hemos encontrado con una pequeña situación durante el proceso de preparación y con eso la posibilidad de tenerlo en otro ubicación. Hasta la primera semana de noviembre no podemos decir qué ciudad será, sin embargo todavía estará en México.  Mientras tanto continúe ahorrando y buscando los documentos de viaje necesarios. No reserve nada durante este tiempo.");
         //Preparación 3
         $("#time-frame-3").text("5-3 Meses Por Delante...");
         //$("#date").text("Diciembre-Febrero");
